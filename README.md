@@ -55,7 +55,7 @@ uvx --with copier_template_extensions copier update --trust --defaults
 
 In case you want to change your answers you can drop the `--defaults` flag:
 ```
-uvx --with copier_template_extension copier update --trust`
+uvx --with copier_template_extension copier update --trust
 ```
 
 In both cases, copier will try to check differences between your project and the template. It might be necessary to fix some conflicts: in this case it is up to the user to decide whenever to include or reject the improvements of the template into the repository.
