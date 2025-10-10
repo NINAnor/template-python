@@ -41,6 +41,7 @@ extend_exclude = ["python/"]
 
 [tool.deptry.per_rule_ignores]
 DEP001 = ["jinja2"]
+DEP003 = ["jinja2"]
 
 [tool.ruff]
 fix = true
