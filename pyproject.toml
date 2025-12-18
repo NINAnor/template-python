@@ -17,6 +17,7 @@ name = "nina-python-template"
 readme = "README.md"
 requires-python = ">=3.10.5"
 version = "0.2.5"
+licence-files = ["LICENSE"]
 
 [tool.bumpversion]
 allow_dirty = false
