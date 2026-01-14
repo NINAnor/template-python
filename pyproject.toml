@@ -12,8 +12,6 @@ authors = [
 # See https://www.python.org/dev/peps/pep-0621/
 dependencies = []
 description = ""
-licence-files = ["LICENSE"]
-license = {text = "GPL-3.0+"}
 name = "nina-python-template"
 readme = "README.md"
 requires-python = ">=3.10.5"
