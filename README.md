@@ -21,7 +21,7 @@ To apply this template to an existing project directory:
 
 ```bash
 cd your-existing-project
-uvx --with copier_template_extensions copier copy --trust gh:ninanor/python-template .
+uvx --with copier_template_extensions copier copy --trust gh:ninanor/template-python .
 ```
 
 This will add the template files to your current directory. Be careful as this may overwrite existing files.
