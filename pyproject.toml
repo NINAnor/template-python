@@ -13,7 +13,7 @@ authors = [
 dependencies = []
 description = ""
 license = {text = "GPL-3.0+"}
-name = "nina-python-template"
+name = "template-python"
 readme = "README.md"
 requires-python = ">=3.10.5"
 version = "0.2.5"

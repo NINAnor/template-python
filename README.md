@@ -11,7 +11,7 @@
 Make sure that `uv` is installed, then run (replace `your-project-name` with your desired project name):
 
 ```bash
-uvx --with copier_template_extensions copier copy --trust gh:ninanor/python-template your-project-name
+uvx --with copier_template_extensions copier copy --trust gh:ninanor/template-python your-project-name
 ```
 
 Answer the questions and you are done.

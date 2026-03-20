@@ -17,7 +17,7 @@ repo_org = "testorg"
 template_type = "python"
 
 # Python project with custom organization and author
-[output."/tmp/ctt/python-template/custom"]
+[output."/tmp/ctt/template-python/custom"]
 author_name = "Custom Author Name"
 debug = false
 default_branch_name = "develop"
@@ -32,7 +32,7 @@ template_type = "python"
 type_annotations = true
 
 # Python project with Docker support
-[output."/tmp/ctt/python-template/docker"]
+[output."/tmp/ctt/template-python/docker"]
 author_name = "Test Author"
 debug = false
 docker = true
@@ -46,7 +46,7 @@ template_type = "python"
 type_annotations = false
 
 # Python project testing edge cases with special characters
-[output."/tmp/ctt/python-template/edge_cases"]
+[output."/tmp/ctt/template-python/edge_cases"]
 author_name = "Edge Case Author"
 debug = true
 docker = true
@@ -61,7 +61,7 @@ template_type = "python"
 type_annotations = true
 
 # Full-featured Python project with all options enabled
-[output."/tmp/ctt/python-template/full"]
+[output."/tmp/ctt/template-python/full"]
 author_name = "Test Author"
 debug = true
 docker = true
@@ -76,7 +76,7 @@ template_type = "python"
 type_annotations = true
 
 # Python project with Jupyter notebook
-[output."/tmp/ctt/python-template/jupyter"]
+[output."/tmp/ctt/template-python/jupyter"]
 author_name = "Test Author"
 debug = false
 docker = false
@@ -91,7 +91,7 @@ template_type = "python"
 type_annotations = false
 
 # Python project with Marimo notebook
-[output."/tmp/ctt/python-template/marimo"]
+[output."/tmp/ctt/template-python/marimo"]
 author_name = "Test Author"
 debug = false
 docker = false
@@ -106,7 +106,7 @@ template_type = "python"
 type_annotations = false
 
 # Basic Python project with minimal configuration
-[output."/tmp/ctt/python-template/minimal"]
+[output."/tmp/ctt/template-python/minimal"]
 author_name = "Test Author"
 debug = false
 docker = false
@@ -120,7 +120,7 @@ template_type = "python"
 type_annotations = false
 
 # Python project with type annotations
-[output."/tmp/ctt/python-template/typed"]
+[output."/tmp/ctt/template-python/typed"]
 author_name = "Test Author"
 debug = false
 docker = false
