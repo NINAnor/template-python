@@ -2,7 +2,7 @@ default_stages: [pre-commit]
 
 repos:
   - repo: https://github.com/KyleKing/copier-template-tester
-    rev: 2.2.0
+    rev: 2.3.0
     hooks:
       - id: copier-template-tester
         additional_dependencies: [copier-template-extensions]

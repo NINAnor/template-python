@@ -20,7 +20,7 @@ repos:
         args: [--assume-in-merge]
 
   - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-    rev: v2.15.0
+    rev: v2.16.0
     hooks:
       - id: pretty-format-toml
         args: [--autofix]
@@ -44,18 +44,18 @@ repos:
         files: "\\.rej$"
 
   - repo: https://github.com/woodruffw/zizmor-pre-commit
-    rev: v1.11.0
+    rev: v1.23.1
     hooks:
     - id: zizmor
 
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.12.8
+    rev: v0.15.7
     hooks:
       - id: ruff
       - id: ruff-format
 
   - repo: https://github.com/astral-sh/uv-pre-commit
-    rev: 0.8.8
+    rev: 0.10.12
     hooks:
       - id: uv-lock
 
