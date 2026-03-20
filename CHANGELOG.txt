@@ -2,6 +2,34 @@ Changelog
 =========
 
 
+v0.2.6 (2026-03-20)
+-------------------
+
+Changes
+-------
+
+- Rename repository.
+- Add src as known first party.
+- Retain default patterns to exclude.
+
+
+Fixes
+-----
+
+- Rename repository.
+- Ignore jinja2 transitive dependency.
+- Validate project_slug.
+
+
+Other
+-----
+
+- Chore: update dependencies.
+- Fix typo in README regarding copier_template_extensions.
+- Update README.md.
+- Docs: update and improve how to update section.
+
+
 v0.2.5 (2025-08-11)
 -------------------
 

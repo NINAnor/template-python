@@ -16,13 +16,13 @@ license = {text = "GPL-3.0+"}
 name = "template-python"
 readme = "README.md"
 requires-python = ">=3.10.5"
-version = "0.2.5"
+version = "0.2.6"
 
 [tool.bumpversion]
 allow_dirty = false
 commit = false
 commit_args = ""
-current_version = "0.2.5"
+current_version = "0.2.6"
 ignore_missing_files = false
 ignore_missing_version = false
 message = "Bump version: {current_version} → {new_version}"
