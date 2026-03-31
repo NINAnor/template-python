@@ -33,7 +33,7 @@ Why should I use this template:
 - **Auto formatting and code checking** using `ruff`
 - **Updatable template** - Easy to keep up to date with latest practices
 - **Visual Studio Code** configurations included
-- **Pre-commit hooks** for code quality enforcement
+- **Git hooks with prek** for code quality enforcement
 - **GitHub Actions** workflows for CI/CD
 
 ### Optional features
@@ -62,22 +62,28 @@ In both cases, copier will try to check differences between your project and the
 
 Check this [page](https://copier.readthedocs.io/en/stable/updating/) for more specific info about this feature.
 
-## Running pre-commit
+## Running prek
 
-[pre-commit](https://github.com/pre-commit/pre-commit) is a framework for managing pre-commit git hooks. The pre-commit git hooks are ways to identify issues in your code before pushing your changes to the repository, for instance missing semicolons, trailing whitespace, unused dependencies.
+[prek](https://prek.j178.dev/) is a fast, Rust-based framework for managing git hooks. It's 100% compatible with pre-commit configs but significantly faster. Git hooks help identify issues in your code before pushing to the repository, such as missing semicolons, trailing whitespace, or unused dependencies.
 
-:sparkles: pre-commit doesn't change the functionality of your code
+:sparkles: prek doesn't change the functionality of your code
 
-To run pre-commit on your code, first install pre-commit:
-
-```
-uv tool install pre-commit
-```
-
-Then run:
+To run prek on your code, first install prek:
 
 ```
-pre-commit run --all
+uv tool install prek
+```
+
+Then install the git hooks:
+
+```
+prek install
+```
+
+To run manually on all files:
+
+```
+prek run --all-files
 ```
 
 ## Struggling with a template?
@@ -91,7 +97,7 @@ Install development dependencies:
 ## Testing the template
 To test the template using copier-template-tester, run:
 ```bash
-pre-commit run -c .pre-commit-config-extra.yaml
+prek run -c prek-extra.toml
 ```
 
 ## Maintenance

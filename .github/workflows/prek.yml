@@ -8,7 +8,7 @@ on:
 permissions: {}
 
 jobs:
-  pre-commit:
+  prek:
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -35,10 +35,11 @@ jobs:
       - name: Install deptry
         run: uv tool install deptry
 
-      - name: Run pre-commit
-        uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
+      - name: Install prek
+        run: uv tool install prek
 
-      - name: Run pre-commit (extra)
-        uses: pre-commit/action@2c7b3805fd2a0fd8c1884dcaebf91fc102a13ecd # v3.0.1
-        with:
-          extra_args: --config .pre-commit-config-extra.yaml
+      - name: Run prek
+        run: prek run --all-files --show-diff-on-failure
+
+      - name: Run prek (extra)
+        run: prek run --all-files --show-diff-on-failure --config prek-extra.toml
