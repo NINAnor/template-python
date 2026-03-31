@@ -46,7 +46,7 @@ hooks = [
   {id = "zizmor"}
 ]
 repo = "https://github.com/woodruffw/zizmor-pre-commit"
-rev = "v1.23.1"
+rev = "v1.24.1"
 
 [[repos]]
 hooks = [
@@ -54,14 +54,14 @@ hooks = [
   {id = "ruff-format"}
 ]
 repo = "https://github.com/astral-sh/ruff-pre-commit"
-rev = "v0.15.7"
+rev = "v0.15.10"
 
 [[repos]]
 hooks = [
   {id = "uv-lock"}
 ]
 repo = "https://github.com/astral-sh/uv-pre-commit"
-rev = "0.10.12"
+rev = "0.11.6"
 
 [[repos]]
 hooks = [
