@@ -8,7 +8,7 @@ git init
 uv sync --dev
 git add .
 git commit -m "Initial commit"
-uv run pre-commit install # optional
+uv run prek install # optional
 ```
 
 {% if notebook %}
@@ -60,22 +60,22 @@ You can keep your previous answers by using:
 uvx --with copier-template-extensions copier update --trust --defaults
 ```
 
-### (Optional) pre-commit
-pre-commit is a set of tools that help you ensure code quality. It runs every time you make a commit.
+### (Optional) prek
+prek is a fast, Rust-based tool for managing git hooks (100% compatible with pre-commit). It helps ensure code quality by running checks every time you make a commit.
 
-First, install pre-commit:
+First, install prek:
 ```bash
-uv tool install pre-commit
+uv tool install prek
 ```
 
-Then install pre-commit hooks:
+Then install git hooks:
 ```bash
-pre-commit install
+prek install
 ```
 
-To run pre-commit on all files:
+To run prek on all files:
 ```bash
-pre-commit run --all-files
+prek run --all-files
 ```
 
 ### How to install a package
@@ -97,7 +97,7 @@ docker compose up --build watch
 
 ### Tools installed
 - uv
-- pre-commit (optional)
+- prek (optional)
 
 #### What is an environment variable? and why should I use them?
 Environment variables are variables that are not populated in your code but rather in the environment
