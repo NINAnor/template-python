@@ -68,3 +68,9 @@ repos:
         language: system
         types: [python]
         pass_filenames: false
+      - id: pylic
+        name: pylic
+        entry: uv run pylic check --allow-extra-safe-licenses
+        language: system
+        types: [python]
+        pass_filenames: false
