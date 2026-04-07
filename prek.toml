@@ -65,6 +65,7 @@ rev = "0.11.2"
 
 [[repos]]
 hooks = [
-  {id = "deptry", name = "deptry", entry = "uv run deptry .", language = "system", types = ["python"], pass_filenames = false}
+  {id = "deptry", name = "deptry", entry = "uv run deptry .", language = "system", types = ["python"], pass_filenames = false},
+  {id = "pylic", name = "pylic", entry = "uv run pylic check --allow-extra-safe-licenses", language = "system", types = ["python"], pass_filenames = false}
 ]
 repo = "local"
