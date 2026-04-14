@@ -2,6 +2,27 @@ Changelog
 =========
 
 
+v0.3.0 (2026-04-14)
+-------------------
+
+Breaking changes
+----------------
+
+- Use prek instead of pre-commit (#46)
+
+
+Changes
+-------
+
+- Exclude uv.lock from prettifier (#44)
+
+
+Other
+-----
+
+- Chore: update dependencies.
+
+
 v0.2.6 (2026-03-20)
 -------------------
 
